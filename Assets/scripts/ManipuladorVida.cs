@@ -25,6 +25,7 @@ public class ManipuladorVida : MonoBehaviour
             {
                 playerVida.vida += cantidad;
                 currentDamageTime = 0.0f;
+                Destroy(gameObject);
             }
         }
     }
